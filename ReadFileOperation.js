@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fd = fs.readFileSync("File.txt");
+const fd = fs.readFileSync("file.txt");
 console.log(fd.toString());
 console.log("End Of Execution");
 
